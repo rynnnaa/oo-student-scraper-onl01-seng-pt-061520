@@ -24,7 +24,7 @@ class Scraper
     return_hash = {}
     doc.css("div.vitals-container"). each do |container|
       conatiner.css("social-icon-container").each do |sec_container|
-        
+        when twitter 
       
     
   end

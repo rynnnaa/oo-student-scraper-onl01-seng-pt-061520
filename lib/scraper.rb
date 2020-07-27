@@ -9,8 +9,8 @@ class Scraper
     
     student = {}
     
-    doc.css("div").each do |student|
-      titile = student.css("")
+    doc.css("div.roster-cards-container").each do |student|
+      student.css("")
       
   end
 

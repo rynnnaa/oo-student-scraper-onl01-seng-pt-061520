@@ -24,7 +24,8 @@ class Scraper
     return_hash = {}
     doc.css("div.vitals-container"). each do |container|
       conatiner.css("social-icon-container").each do |sec_container|
-        when twitter 
+        if sec_container.attr("href").inlcude?("twitter")
+          return_hash[:twitter]
       
     
   end

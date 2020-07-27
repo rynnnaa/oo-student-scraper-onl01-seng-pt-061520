@@ -9,7 +9,8 @@ class Scraper
     
     student = {}
     
-    html.
+    doc.css("").each do |student|
+      
   end
 
   def self.scrape_profile_page(profile_url)
